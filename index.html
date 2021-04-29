@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Solstice</title>
+    <script src='/src/three.js'></script>
+    <link rel="stylesheet" type='text/css' href="/src/main.css">
+</head>
+
+<body>
+    <div class="floatbox" style="background-color: #900; 
+        color: #fff;
+        left: 0px; 
+        bottom: 0px; 
+        padding: 5px;">
+        <label>
+            Target light:<br />
+            <select id='lights'>
+                <option value="sky" disabled>Skyline LEDs (NYI)</option>
+                <option value="vran">VR Area -> North</option>
+                <option value="vrae">VR Area -> East</option>
+                <option value="vras">VR Area -> South</option>
+                <option value="bed">Bed Light</option>
+            </select>
+        </label>
+        <!-- color select -->
+        <br />
+        <p></p>
+        power
+        <button id='lighton'>On</button>/<button id='lightoff'>Off</button>
+        <br />
+        <p></p>
+        <label>
+            color
+            <input type="color" id="lcolor">
+        </label>
+    </div>
+    <!-- last loaded scripts -->
+    <script src='/src/main.js'></script>
+    <script src="/src/ui.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "solstice-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/crinfarr/solstice"
+  },
+  "author": "Crinfarr",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "magic-hue-controller": "^1.0.1"
+  }
+}
